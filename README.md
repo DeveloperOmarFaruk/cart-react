@@ -1,14 +1,14 @@
-# Here is some UI and work shown in this repository and Project details share
+# Here is some UI and work shown in this repository and Project details are share
 #
-[Live Preview Project](https://docfind-dental-booking.netlify.app/)
+[Live Preview Project](https://cart-reactjs.netlify.app/)
 #
 #
 ## Project Requirements –
 #
-#### Main thumbnail should change based on Band Color selection.
-#### When click Add to Cart it should show floating Checkout button with count number.
-#### Once click on floating Checkout button it will open Modal Preview (Your Cart) with added items.
-#### Your Cart modal should be updated accordingly including photo, color, size, quantity and price etc.
+#### The main thumbnail should change based on the Band Color selection.
+#### When clicking Add to Cart it should show a floating Checkout button with a count number.
+#### Once you click on the floating Checkout button it will open Modal Preview (Your Cart) with added items.
+#### Your Cart modal should be updated accordingly, including photo, color, size, quantity, price, etc.
 
 #
 ### `Technology Use`
@@ -40,9 +40,9 @@
 #
 ### `Cart Page`
 #
-![image](https://github.com/DeveloperOmarFaruk/node-react-mongo-docfind-portal/blob/main/frontend/src/Images/UI/Home.png)
+![image](https://github.com/user-attachments/assets/d02be881-3ab3-43d7-8a24-d4bcc82f2f07)
 #
 ### `Checkout Modal`
 #
-![image](https://github.com/DeveloperOmarFaruk/node-react-mongo-docfind-portal/blob/main/frontend/src/Images/UI/Appointment.png)
+![image](https://github.com/user-attachments/assets/b89edfef-5ea8-4f95-b984-f27f991485fe)
 #
