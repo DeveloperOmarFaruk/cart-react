@@ -1,0 +1,324 @@
+/* ================================ */
+/*  Product Info Design Start */
+/* ================================ */
+
+.product-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  color: var(--light-blue);
+}
+
+.review-count {
+  margin-top: 0.25rem;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23.1px;
+  color: var(--light-gray);
+}
+
+.original-price {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--light-gray);
+  text-decoration-line: line-through;
+}
+
+.discount-price {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: var(--purple);
+}
+
+.product-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--light-gray);
+}
+
+.type-model-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 13.1px;
+  margin-top: 15px;
+  color: var(--light-gray);
+}
+
+.type-model-title-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 13px;
+  color: var(--black);
+}
+
+.band-color-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  margin-top: 15px;
+  color: var(--black);
+}
+
+.product-size-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  margin-top: 25px;
+  color: var(--black);
+}
+
+.product-size-btn {
+  padding: 8px 18px;
+  border: 1px solid var(--light-gray);
+  border-radius: 3px;
+  margin-right: 10px;
+  color: var(--black);
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.product-size-btn span,
+.product-size-btn-active span {
+  color: var(--light-gray);
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.product-size-btn-active {
+  color: var(--purple) !important;
+  border: 1px solid var(--purple);
+  padding: 8px 18px;
+  border-radius: 3px;
+  margin-right: 10px;
+  color: var(--black);
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.add-cart-button {
+  padding: 8px 18px;
+  border: 1px solid var(--purple);
+  background-color: var(--purple);
+  border-radius: 3px;
+  margin-right: 10px;
+  color: var(--white);
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.add-cart-button:hover {
+  padding: 8px 18px;
+  border: 1px solid var(--purple);
+  background-color: var(--white);
+  border-radius: 3px;
+  margin-right: 10px;
+  color: var(--purple);
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.checkout-btn {
+  padding: 8px 24px;
+  border: none;
+  border-radius: 20px;
+  background-color: var(--deep-yellow);
+  color: var(--black);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.26px;
+  height: 42px;
+  margin-top: 4rem;
+}
+
+.checkout-btn:hover {
+  background-color: var(--light-yellow);
+}
+
+.checkout-btn span {
+  background-color: var(--white);
+  padding: 2px 6px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* ================================ */
+/*  Product Info Design End */
+/* ================================ */
+
+/* ================================ */
+/* Mutli Color Button Design Start */
+/* ================================ */
+/* Hide the default radio button */
+input[type="radio"] {
+  display: none;
+}
+
+/* Create a custom radio button */
+.custom-radio {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.custom-radio span {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 3px;
+  position: relative;
+}
+
+/* Create the filled dot for the selected radio */
+.custom-radio .custom-radio-span::after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-color: var(--white); /* Fill color */
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Show the filled dot when the radio button is selected */
+input[type="radio"]:checked + span::after {
+  opacity: 1;
+}
+
+/* ================================ */
+/* Mutli Color Button Design End */
+/* ================================ */
+
+/* ================================================ */
+/* Increment/decrement counter Button Design Start */
+/* =============================================== */
+
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.quantity__minus,
+.quantity__plus {
+  display: block;
+  width: 35px;
+  height: 36px;
+  margin: 0;
+  background: var(--white);
+  text-decoration: none;
+  text-align: center;
+  line-height: 23px;
+  cursor: pointer;
+}
+
+.quantity__minus:hover,
+.quantity__plus:hover {
+  background: var(--light-white-gray);
+  color: var(--white);
+}
+.quantity__minus {
+  border-radius: 3px 0 0 3px;
+  border: 1px solid var(--light-white-gray);
+}
+.quantity__plus {
+  border-radius: 0 3px 3px 0;
+  border: 1px solid var(--light-white-gray);
+}
+
+.quantity__minus span i,
+.quantity__plus span i {
+  margin-top: 0.55rem;
+}
+
+.quantity__input {
+  padding: 3px 26px;
+  width: 60px;
+  height: 36px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  border: 1px solid var(--light-white-gray);
+  background: var(--white);
+  color: var(--black);
+}
+.quantity__minus:link,
+.quantity__plus:link {
+  color: #8184a1;
+}
+.quantity__minus:visited,
+.quantity__plus:visited {
+  color: var(--light-gray);
+}
+/* ================================================ */
+/* Increment/decrement counter Button Design End */
+/* =============================================== */
+
+/* ====================================== */
+/* Modal Cart Design Start */
+/* ====================================== */
+
+.modal-cart-header-div {
+  border-bottom: 1px solid var(--light-white-gray);
+  width: 100%;
+  margin: 0px;
+  padding: 0px 0px 10px 0px;
+}
+
+.modal-cart-header {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--light-gray);
+}
+
+.modal-cart-info-div {
+  border-bottom: 1px solid var(--light-white-gray);
+  width: 100%;
+  margin: 3px 0px;
+  padding: 10px 0px;
+  align-items: center;
+}
+
+.modal-cart-info {
+  font-weight: 700;
+  font-size: 14px;
+  text-align: left;
+}
+
+.modal-cart-info img {
+  width: 36.64px;
+  height: 41.79px;
+  border-radius: 3px;
+}
+
+.modal-cart-total-info-div {
+  margin-top: 20px;
+}
+.modal-cart-total-info {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.continue-shopping-btn {
+  border: 1px solid var(--light-gray);
+  border-radius: 3px;
+  padding: 8px 18px;
+  margin-right: 10px;
+  background-color: var(--light-white-gray);
+  font-weight: 700;
+  font-size: 13px;
+}
+
+/* ===================================== */
+/* Modal Cart Design End */
+/* ===================================== */
